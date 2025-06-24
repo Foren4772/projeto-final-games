@@ -106,7 +106,7 @@ function drawAbout() {
     textSize(24);
     text("Sobre o Jogo", width / 2, 100);
     textSize(16);
-    text("Criado por: [Seu Nome Aqui]\nDisciplina: Programação de Jogos\n2025", width / 2, 180);
+    text("Criado por:\n Vinicius Wamser\n Lucas Gabriel\nDisciplina:Jogos\n2025", width / 2, 180);
     buttonBack.show();
 }
 
