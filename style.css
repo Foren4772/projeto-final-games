@@ -1,6 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* altura total da tela */
+}
+
+#main-container {
+  position: relative;
+  text-align: center;
+}
+
+/* Exemplo para estilizar o canvas */
+canvas {
+  display: block;
+  margin: 0 auto;
 }
